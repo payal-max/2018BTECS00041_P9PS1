@@ -1,0 +1,85 @@
+<!DOCtype html>
+<html>
+<head>
+	<title>COURSE FEEDBACK
+	</title>
+	<style>
+		.body
+    {
+      border-style: double;
+      padding:30px;border-color: black;border-width: 2px;
+      display:table-cell; text-align:center; vertical-align:middle;}
+    
+.button
+{
+  border: none;
+  background-color: red;
+  border-radius: 12px;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+
+</style>
+</head>
+<body style="text-align: center;">
+	<h1><marquee>COURSE FEEDBACK</marquee></h1>
+	<h2>Programming Lab-3 </h2>
+<nav align="center">
+      Navigate to:<br><a href="PS2/index.html">Problem Statement 2</a>  <br><br>
+    </nav>
+	 <form>
+    <button><img src="WCE-Sangli-Logo.png" alt="A"></button><br><br>
+  <label for="email">Email: </label>
+  <input type="email" required="Enter" id="email" name="email"><br><br>
+
+  <label for="pin">PRN NO: </label>
+  <input type="text" id="pin" required="PRN NO" name="PRN NO" maxlength="14"><br><br>  
+  
+
+  <label for myfile="myfile">Course Attendence Sheet: </label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+ 
+  <label for myfile="myfile">Your Submitted Assignments pdf: </label>
+  <input type="file" id="myfile" name="myfile" accept="application/pdf"><br><br>
+
+  
+  Is the teaching meeting effective?
+  <input type="radio" name="Is the teaching meeting effective?" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" name="Is the teaching meeting effective?" value="no">
+  <label for="no">No</label><br><br>
+
+  
+ 
+  Do the course structure meets the Co's?
+  <input type="radio" name="Do the course structure meets the Co's?" value="Yes">
+  <label for="yes">Yes</label>
+  <input type="radio" name="Do the course structure meets the Co's?" value="No">
+  <label for="no">No</label><br><br>
+  
+
+  <label for myfile="myfile">Upload your Course Assesment Result Image: </label>
+<input type="file" id="myfile" name="myfile" accept="image/jpeg,image/png"><br><br>
+
+  Views about the course or suggestions:
+  <textarea rows="5" cols="30" name="comment"></textarea><br><br>
+<div class="end">
+<input style="background-color: tomato;border-radius: 4px;" type="reset" value="Reset">
+
+<button style="background-color: tomato;border-radius: 4px;" onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("The response will be submitted.");}
+</script></div>
+</form>
+	
+</head>
+</body>
+</html>
